@@ -1,0 +1,59 @@
+.pyg_view{
+    display: flex;
+    overflow: hidden;
+    .left{
+        width: 1rem; 
+        overflow: hidden;
+        ul{
+            li{
+                font-size: 0.16rem;
+                text-align: center;
+                padding: 7px 10px;
+            }
+            .active{
+                background-color: #fff;
+                border-left: 3px solid #0094ff;
+            }
+        }
+        
+    }
+    .right{
+        flex: 1;
+        overflow:hidden; 
+        background-color: #fff;
+        .goods_group{
+            .goods_title{
+                display: flex;
+                font-size: 0.14rem;
+                color: rgb(59, 172, 255);
+                padding-top: 5px;
+                padding-right: 15px;
+                .goods_calls{
+                    padding: 0.05rem;
+                }
+                .goods_line{
+                    flex: 1;
+                    height: 0.01rem;
+                    align-self: center;
+                    background-color: #000;
+                }
+            }
+            .goods_content{
+                display: flex;
+                flex-wrap: wrap;
+                li{
+                    width: 33.33%;
+                    text-align: center;
+                    a{
+                        color: black;
+                        img{
+                            width: 70%;
+                            margin: 0 auto;
+                        }
+                        .goods_name{}
+                    }
+                }
+            }
+        }
+    }
+}

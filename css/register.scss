@@ -1,0 +1,23 @@
+.pyg_view {
+    padding: 10px;
+    
+    .code-row{
+        position: relative;
+        
+        #code_btn{
+            position: absolute;
+            right: 3px;
+            width: auto;
+        } 
+    }
+    input{
+        font-size: 14px;
+    }
+    .btn_tool{
+        display: flex;
+        padding: 10px;
+        button{
+            flex: 1;
+        }
+    }
+}

@@ -1,0 +1,28 @@
+body{
+    display: none;
+}
+.pyg_view{
+    #item1{
+        padding: 20px;
+        ul{
+            background-color: #fff;
+            padding: 10px;
+            li{
+                display: flex;
+                padding: 10px 0;
+                border-bottom: 1px solid #ccc;
+                .left{
+                    flex: 3;
+                    overflow: hidden;
+                    .order_num_content{
+                        display: block;
+                    }                    
+                }
+                .right{
+                    flex: 1;
+                    color: red;
+                }
+            }
+        }
+    }
+}

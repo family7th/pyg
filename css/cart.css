@@ -1,0 +1,190 @@
+body {
+  display: none;
+}
+
+#delete_btn {
+  display: none;
+}
+
+.pyg_view {
+  padding: 50px 10px;
+}
+
+.pyg_view .address .addr_title {
+  font-size: 14px;
+  color: #666;
+}
+
+.pyg_view .address .addr_content {
+  padding: 10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #fff;
+}
+
+.pyg_view .address .addr_content .fa {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.pyg_view .address .addr_content .des {
+  position: relative;
+  -webkit-box-flex: 7;
+      -ms-flex: 7;
+          flex: 7;
+}
+
+.pyg_view .address .addr_content .des .ad_title {
+  font-size: 14px;
+}
+
+.pyg_view .address .addr_content .des .ad_content {
+  font-size: 12px;
+  color: #666;
+}
+
+.pyg_view .address .addr_content .des .fa {
+  position: absolute;
+  right: 10px;
+  top: 6px;
+  font-size: 23px;
+  color: #666;
+}
+
+.pyg_view .order {
+  padding-top: 50px;
+}
+
+.pyg_view .order .order_title {
+  font-size: 14px;
+  color: #666;
+}
+
+.pyg_view .order .order_content {
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px 5px;
+  position: relative;
+}
+
+.pyg_view .order .order_content .order_price {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.pyg_view .order .order_content .order_creat {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: right;
+  color: red;
+  padding-right: 25px;
+}
+
+.pyg_view .order .order_content .fa {
+  position: absolute;
+  right: 10px;
+  top: 6px;
+  font-size: 23px;
+  color: red;
+}
+
+.pyg_view .shopping_car {
+  padding-top: 50px;
+}
+
+.pyg_view .shopping_car .sc_title {
+  font-size: 14px;
+  color: #666;
+}
+
+.pyg_view .shopping_car .sc_content {
+  background-color: #fff;
+}
+
+.pyg_view .shopping_car .sc_content ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.pyg_view .shopping_car .sc_content ul li .goods_chk {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.pyg_view .shopping_car .sc_content ul li .goods_chk input {
+  position: static;
+}
+
+.pyg_view .shopping_car .sc_content ul li .goods_img {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  width: 100%;
+}
+
+.pyg_view .shopping_car .sc_content ul li .goods_tools {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  padding: 6px;
+}
+
+.pyg_view .shopping_car .sc_content ul li .goods_tools .goods_name {
+  font-size: 14px;
+  color: #666;
+}
+
+.pyg_view .shopping_car .sc_content ul li .goods_tools .goods_num {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 5px;
+}
+
+.pyg_view .shopping_car .sc_content ul li .goods_tools .goods_num .goods_price {
+  padding-top: 7px;
+}
+
+.pyg_view .shopping_car .sc_content ul li .goods_tools .goods_num .mui-numbox {
+  display: none;
+}
+
+#pyg_body.edit_status #delete_btn {
+  display: block;
+}
+
+#pyg_body.edit_status .goods_chk {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#pyg_body.edit_status .mui-numbox {
+  display: block;
+}
+/*# sourceMappingURL=cart.css.map */

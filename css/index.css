@@ -1,0 +1,61 @@
+.pyg_view .index_nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.pyg_view .index_nav a {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 5px 0;
+}
+
+.pyg_view .index_nav a img {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.pyg_view .index_goodlist {
+  padding: 0 10px;
+}
+
+.pyg_view .index_goodlist .goods_title {
+  padding-bottom: 8px;
+}
+
+.pyg_view .index_goodlist .goods_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.pyg_view .index_goodlist .goods_content li {
+  width: 49%;
+  background-color: #fff;
+  margin-bottom: 5px;
+}
+
+.pyg_view .index_goodlist .goods_content li .goods_name {
+  overflow: hidden;
+  height: 40px;
+  font-size: 14px;
+  color: black;
+}
+
+.pyg_view .index_goodlist .goods_content li .goods_price {
+  color: red;
+  font-size: 18px;
+}
+
+.pyg_view .index_goodlist .goods_content li .goods_like {
+  display: block;
+  width: 60%;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=index.css.map */

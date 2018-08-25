@@ -1,0 +1,74 @@
+//重置body样式，因为在公共样式的时候已经设置了
+body{
+    padding-top:90px; 
+}
+.search_header{
+    height: 45px;
+    width: 100%;
+    background-color: red;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+.sort_bar{
+    height: 45px;
+    width: 100%;
+    background-color: rgb(247, 247, 247);
+    position: fixed;
+    left: 0;
+    top: 45px;
+    display: flex;
+    a{
+        flex: 1;
+        line-height: 45px;
+        text-align: center;
+        font-size: 18px; 
+    }
+}
+.pyg_view{
+    padding: 5px;
+    background-color: #ccc;
+    position: relative;
+    ul{
+        background-color: #fff;
+        li{
+            a{
+                display: flex;
+                font-size: 14px;
+                .item_left{
+                    flex: 1;
+                    img{
+                        width: 70%;
+                        margin: 0 auto;
+                    }
+                }
+                .item_right{
+                    flex: 2;
+                    overflow: hidden;
+                    position: relative;
+                    .good_name{
+                        //还要给父元素加一个overflow: hidden;
+                        overflow: hidden;
+                        //不要换行 flex布局当宽度超出符元素的宽度后，会发生挤压
+                        white-space: nowrap;
+                        //文字超出时，让最后一个文字变成...
+                        text-overflow: ellipsis;
+                        color: rgb(152, 152, 157);
+                    }
+                    >span{
+                        color: rgb(152, 152, 157);
+                        position: absolute;
+                        right: 10px;
+                    }
+                    .good_price{
+                        color: red;
+                        position: absolute;
+                        bottom: 10px;
+                        left: 0px;
+                    }
+                }
+            }
+        }
+    }
+}
+.pyg_footer{}

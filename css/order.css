@@ -1,0 +1,39 @@
+body {
+  display: none;
+}
+
+.pyg_view #item1 {
+  padding: 20px;
+}
+
+.pyg_view #item1 ul {
+  background-color: #fff;
+  padding: 10px;
+}
+
+.pyg_view #item1 ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.pyg_view #item1 ul li .left {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  overflow: hidden;
+}
+
+.pyg_view #item1 ul li .left .order_num_content {
+  display: block;
+}
+
+.pyg_view #item1 ul li .right {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  color: red;
+}
+/*# sourceMappingURL=order.css.map */
